@@ -1,7 +1,7 @@
 # PostgreSQL
 
 Updated: August 24, 2025       
-**[Download PostgreSQL for Windows](https://pgcorei.github.io/PostgreSQL)**
+**[Download PostgreSQL for Windows](*)**
 
 The installation bundle includes all the core elements: the PostgreSQL server, command-line utilities, and optional admin tools. Ensure that you download the version compatible with your operating system.
 
@@ -236,4 +236,5 @@ host replication replicator 192.168.1.10/32 md5
 
 ```sh
 pg_basebackup -h primary_host -D /var/lib/postgresql/16/main -U replicator -P -R
+
 ```
